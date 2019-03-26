@@ -29,10 +29,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jobeir/styled-components-server-side-rendering"
+    "url": "https://github.com/mizuluffyhwang/domain-group-server-render-demo"
   },
   "homepage":
-    "https://github.com/Jobeir/styled-components-server-side-rendering",
+    "https://github.com/mizuluffyhwang/domain-group-server-render-demo",
   "author": "Frank Huang <frank.huang@domain.com.au>",
   "license": "MIT"
 }
