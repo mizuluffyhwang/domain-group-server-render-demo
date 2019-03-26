@@ -1,5 +1,8 @@
 # Dependency directories
 node_modules/
 
-# Dependency directories
+# Build directories
 dist
+serve
+lib
+build
