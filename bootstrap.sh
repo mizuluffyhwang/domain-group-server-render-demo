@@ -6,9 +6,6 @@ sudo yum update -y
 # install git
 sudo yum install git -y
 
-# install nodejs environment
-sudo yum install -y gcc-c++ make
-
 # add node 10 package source to repository
 sudo curl -sL https://rpm.nodesource.com/setup_10.x | sudo -E bash -
 
@@ -31,4 +28,4 @@ git clone https://github.com/mizuluffyhwang/domain-group-server-render-demo.git
 cd domain-group-server-render-demo
 
 # install dependencies, build and start up application
-yarn && yarn build && yarn start
+yarn && yarn build && sudo yarn start
