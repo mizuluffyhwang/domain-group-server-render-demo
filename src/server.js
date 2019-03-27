@@ -6,7 +6,7 @@ import App from './client/App';
 import Html from './client/Html';
 import { ServerStyleSheet } from 'styled-components'; // <-- importing ServerStyleSheet
 
-const port = 3000;
+const port = 80; // <-- mapping host http port
 const server = express();
 
 // Creating a single index route to server our React application from.
