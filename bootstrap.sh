@@ -27,5 +27,11 @@ cd web-demo-app
 git clone https://github.com/mizuluffyhwang/domain-group-server-render-demo.git
 cd domain-group-server-render-demo
 
-# install dependencies, build and start up application
+# install nodejs process manager
+sudo npm install pm2@latest -g
+
+# install dependencies and build
 yarn && yarn build && sudo yarn start
+
+#start up application
+sudo pm2 start npm -- start
